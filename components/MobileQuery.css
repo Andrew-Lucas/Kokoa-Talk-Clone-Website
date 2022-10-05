@@ -1,0 +1,19 @@
+.mobile_query{
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: yellow;
+    display: none;
+}
+
+@media screen and (min-width:770px) {
+    .mobile_query{
+        display: flex;
+    }
+}

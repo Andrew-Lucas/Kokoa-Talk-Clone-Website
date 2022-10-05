@@ -1,0 +1,15 @@
+.column__component{
+    display: flex;
+    padding: 15px 20px;
+    border-bottom: solid 1px ghostwhite;
+}
+.column__component-two {
+    padding: 15px 0px 0px 20px;
+}
+
+.channel_header-column{
+    color: grey;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}

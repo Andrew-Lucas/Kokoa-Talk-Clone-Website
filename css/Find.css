@@ -1,0 +1,143 @@
+@import "../components/reset.css";
+@import "../components/StatusBar.css";
+@import "../components/NavigationBar.css";
+@import "../components/Header.css";
+@import "../components/UserComponent.css";
+@import "../components/MobileQuery.css";
+
+.header_column{
+    padding: 20px 0px;
+}
+.header_column-icons{
+    width: 15%;
+}
+
+.find_setting-notification{
+    position: relative;
+}
+._setting-notification{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+}
+
+.icon_section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px 15px 0px;
+}
+.icon_section > figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    width: 20%;
+}
+.icon_section > figure:nth-child(2){
+    min-height: 80px;
+}
+.icon_section > figure:nth-child(3), .icon_section > figure:nth-child(4){
+    margin-top: -8px;
+}
+
+.icon_section > figure > figcaption{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.recommended{
+    position: relative;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    border-top: solid 1px gainsboro;
+    border-bottom: solid 1px gainsboro;
+    font-size: 15px;
+}
+.recommended > h1{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.link_row{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.link_row > a{
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.music_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 15px;
+    border-bottom: solid 1px rgb(240, 240, 240);
+    box-sizing: border-box;
+}
+.music_selection-article{
+    line-height: 20px;
+}
+.music_selection-article > h1{
+    font-weight: 600;
+    font-size: 15px;
+}
+.music_selection-article > address{
+    font-size: 14px;
+    color: grey;
+}
+.music_selection-article > p{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: grey;
+}
+.music_selection-article > p > img{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.music_selection-article > p > bdi{
+    color: hotpink;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.music_section > aside{
+    position: relative;
+}
+.music_section > aside > img{
+    height: 80px;
+    width: 90px;
+    border-radius: 5px;
+}
+.music_section > aside > div{
+    position: absolute;
+    bottom: 5px;
+    right: 3px;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+    opacity: 0.5;
+    padding: 3px 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}

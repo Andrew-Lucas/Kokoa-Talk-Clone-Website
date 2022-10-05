@@ -1,0 +1,60 @@
+@import "../components/reset.css";
+@import "../components/StatusBar.css";
+@import "../components/NavigationBar.css";
+@import "../components/Header.css";
+@import "../components/UserComponent.css";
+@import "../components/MobileQuery.css";
+
+.settings_header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 15px 45px 0px;
+    box-sizing: border-box;
+}
+.settings_header > h1{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.upper_column > .settings_option:nth-child(3){
+    border-bottom: none;
+}
+.settings_option{
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 17px;
+    border: solid 1px ghostwhite;
+}
+.settings_option-details{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 15px;
+    font-size: 17px;
+}
+.settings_option-details > span{
+    background-color: tomato;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+}
+.settings_option-details > div{
+    position: absolute;
+    right: 1px;
+    bottom: 0px;
+    font-size: 15px;
+    color: grey;
+}
+
+.lower_column{
+    padding: 20px 0px 0px 0px;
+}
+.lower_column > .settings_option:nth-child(1){
+    border-top: solid 1px gainsboro;
+}
